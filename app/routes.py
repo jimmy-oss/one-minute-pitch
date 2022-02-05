@@ -1,7 +1,8 @@
-from flask import render_template,url_for,flash,redirect
+from flask import render_template, url_for, flash, redirect
 from app import app
-from app.forms import RegistrationForm,LoginForm
-from app.models import User,Post
+from app.forms import RegistrationForm, LoginForm
+from app.models import User, Post
+
   
   # Creating the app configurations
 posts = [
