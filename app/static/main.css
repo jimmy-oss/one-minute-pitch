@@ -1,5 +1,10 @@
 body {
-  background: #fafafa;
+  background: #ff00cc;  
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);  
+  background: linear-gradient(to right, #333399, #ff00cc);  
+  background-size: cover;
+  height: 180vh; 
+  background-attachment: scroll;
   color: #333333;
   margin-top: 5rem;
 }
