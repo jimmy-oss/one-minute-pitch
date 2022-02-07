@@ -8,6 +8,7 @@ from app.forms import (RegistrationForm, LoginForm, UpdateAccountForm,
 from app.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 from flask_mail import Message
+ 
 
 
 @app.route("/")
@@ -30,12 +31,13 @@ def register():
     form = RegistrationForm()
     if form.validate_on_submit():
         hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
-        user = User(username=form.username.data, email=form.email.data, password=hashed_password)
+        user = User(username=form.username.data, email=form.email.data, password=hashed_password,)
         db.session.add(user)
         db.session.commit()
+        mail_message("Welcome to 🎀  🍪𝓃𝑒 𝓂𝒾𝓃𝓊𝓉𝑒 𝓅𝒾𝓉𝒸𝒽  🎀  ","email/welcome_user",user.email,user=user)
         flash('Your account has been created! You are now able to log in', 'success')
         return redirect(url_for('login'))
-    return render_template('register.html', title='Register', form=form)
+    return render_template('register.html', title='Register', form=form,registration_form = form)
 
 
 @app.route("/login", methods=['GET', 'POST'])
@@ -198,3 +200,11 @@ def reset_token(token):
         flash('Your password has been updated! You are now able to log in', 'success')
         return redirect(url_for('login'))
     return render_template('reset_token.html', title='Reset Password', form=form)
+
+def mail_message(subject,template,to,**kwargs):
+    sender_email = 'jammieoss@gmail.com'
+
+    email = Message(subject, sender=sender_email, recipients=[to])
+    email.body= render_template(template + ".txt",**kwargs)
+    email.html = render_template(template + ".html",**kwargs)
+    mail.send(email)

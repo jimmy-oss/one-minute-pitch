@@ -1,0 +1,3 @@
+Hello👋 {{user.username}}
+Welcome to 🎀  🍪𝓃𝑒 𝓂𝒾𝓃𝓊𝓉𝑒 𝓅𝒾𝓉𝒸𝒽  🎀   
+We have just seen you have signed up for our application and we want to welcome you to our family. Please feel free to post your creative pitches and also enjoy, your fellow friends creative pitches you like🤗.
