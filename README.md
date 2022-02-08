@@ -39,8 +39,8 @@ I have used:
 
 # Improvement plans
 
-<li>Users are able to like and dislike posts from their fellow peers</li>
-<li>Users are able to comment posted blogs from their peers</li>
+> Users are able to like and dislike posts from their fellow peers
+> Users are able to comment posted blogs from their peers
 
 # AUTHORS NAME🦁
 
