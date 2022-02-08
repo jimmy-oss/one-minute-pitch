@@ -24,7 +24,7 @@ To use the application you should have python3 installed in your machine.
 <li>SQLAlchemy==1.4.31</li>
 <li>Clone this repo using git clone or download the ZIP file of the code</li>
 <li>Open the terminal, cd on the project directory and run this command run./start.sh with the right Configurations it should work!</li>
-<li>launch the 🎀 🍪𝓃𝑒 𝓂𝒾𝓃𝓊𝓉𝑒 𝓅𝒾𝓉𝒸𝒽 🎀 website and enjoy.🤗</li>
+<li>launch the 🎀 🍪𝓃𝑒 𝓂𝒾𝓃𝓊𝓉𝑒 𝓅𝒾𝓉𝒸𝒽 🎀 website and enjoy🤗</li>
 </ul>
 
 # TECHNOLOGIES USED ✨
