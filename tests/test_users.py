@@ -12,7 +12,7 @@ class UserModelTest(unittest.TestCase):
         '''
           Set up method to run before each test cases
           '''
-        self.new_user = User(username = "jimmy", email ="jammieoss@gmail.com", profile_pic_path = "image_url", password = 'testuser.com')
+        self.new_user = User(username = "jammie", email ="jammieoss@gmail.com", profile_pic_path = "image_url", password = 'testuser.com')
         db.session.add(self.new_user)
         db.session.commit()
 
