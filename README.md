@@ -37,7 +37,7 @@ I have used:
    <li>Css</li>
   <li>SQLAlchemy</li>
 
-# Improvement plans
+# Improvement plans 💞️
 
 > Users are able to like and dislike posts from their fellow peers
 > <br><br>
