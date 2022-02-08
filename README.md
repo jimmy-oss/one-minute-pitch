@@ -26,8 +26,11 @@ To use the application you should have python3 installed in your machine.
 <li>Open the terminal, cd on the project directory and run this command run./start.sh with the right Configurations it should work!</li>
 <li>launch the 🎀 🍪𝓃𝑒 𝓂𝒾𝓃𝓊𝓉𝑒 𝓅𝒾𝓉𝒸𝒽 🎀 website and enjoy.🤗</li>
 </ul>
+
 # TECHNOLOGIES USED ✨
+
 I have used:
+
    <li>Python3</li>
    <li>Flask</li>
    <li>Html</li>
