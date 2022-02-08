@@ -41,7 +41,7 @@ I have used:
 
 > Users are able to like and dislike posts from their fellow peers
 > <br><br>
-> Users are able to comment posted blogs from their peers
+> Users are able to comment on posted blogs from their peers
 
 # AUTHORS NAME🦁
 
