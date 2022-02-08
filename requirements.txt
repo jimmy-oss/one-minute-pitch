@@ -14,6 +14,7 @@ Flask-Script==2.0.6
 Flask-SQLAlchemy==2.5.1
 Flask-WTF==1.0.0
 greenlet==1.1.2
+gunicorn==20.1.0
 idna==3.3
 itsdangerous==1.1.0
 Jinja2==2.11.3
@@ -21,7 +22,6 @@ Mako==1.1.6
 MarkupSafe==2.0.1
 Pillow==9.0.1
 pycparser==2.21
-python-dotenv==0.19.2
 six==1.16.0
 SQLAlchemy==1.4.31
 Werkzeug==1.0.1
