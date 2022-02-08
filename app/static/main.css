@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-steel {
-  background-color: #48cae4;
+  background-color: #5f788a;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -83,14 +83,4 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
- .background{
-   font-family: 'Times New Roman', Times, serif;
-   background: #ffffff;
-   padding: 10px 20px;
-   border: 1px solid #dddddd;
-   border-radius: 3px;
-   margin-bottom: 20px;
- }
- .background p{
-   color: #fff;
- }
+ 
