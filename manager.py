@@ -11,6 +11,7 @@ manager.add_command('server',Server)
 
 migrate = Migrate(app,db)
 manager.add_command('db',MigrateCommand)
+migrate.init_app(app, db)
 
 @manager.command
 def test():
