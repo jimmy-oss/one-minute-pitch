@@ -1,4 +1,4 @@
-# 🎀 🍪𝓃𝑒 𝓂𝒾𝓃𝓊𝓉𝑒 𝓅𝒾𝓉𝒸𝒽 🎀
+# 🎀 🍪ne Minute Pitch 🎀
 
 ![Screen Shot 2022-02-08 at 16 09 49](https://user-images.githubusercontent.com/62022158/153027601-2f17cc05-cd5e-45d9-98a5-8752197300e2.png)
 ![Screen Shot 2022-02-08 at 16 10 23](https://user-images.githubusercontent.com/62022158/153027740-53995b9a-d232-4989-b31e-77a9a7f64bda.png)
